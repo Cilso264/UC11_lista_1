@@ -1,0 +1,9 @@
+# Arquivo: exercicio 2 B
+from biblioteca.matematica import soma
+
+assert soma(4, 5) == 9
+assert soma(10, 15) == 25
+assert soma("-3", "7") == 4
+assert soma(-3, "7") == 4
+
+print("Todos os testes passaram com sucesso!")
